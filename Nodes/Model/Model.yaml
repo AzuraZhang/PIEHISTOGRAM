@@ -1,0 +1,20 @@
+Name: Model
+Type: FolderType
+Children:
+- Name: VarInteger
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 10
+- Name: VarBoolean
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: VarName
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Sample01"
+- Name: VarQuery
+  Id: g=4541eb5921123fe85a27a3e0e695cca0
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "SELECT * FROM Table1 ORDER BY Timestamp"
